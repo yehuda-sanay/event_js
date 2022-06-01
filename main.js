@@ -32,8 +32,10 @@
 // shela6=document.body.innerHTML=nameUser
 // }
 
+
+//שאלה 7
 // var mydate=new Date("10");
-// if(mydate.getHours()<"12"){
+// if(mydate.getHours()>"12"){
 // document.body.style.background="yellow";
 // masege.innerHTML="good day";
 // }
@@ -42,17 +44,20 @@
 //     masege.innerHTML="good evning";
 // }
 
-var gil=prompt();
-var bruhim=document.getElementById("shela8");
-bruhim.onmouseover=function(){
-    this.style.color="green";
-}
-if(gil>18){
-    document.body.style.backgroundColor="red";
-}
-else{
-    document.body.style.backgroundColor="blue";
-}
+
+
+//שאלה 8 
+// var gil=prompt();
+// var bruhim=document.getElementById("shela8");
+// bruhim.onmouseover=function(){
+//     this.style.color="green";
+// }
+// if(gil>18){
+//     document.body.style.backgroundColor="red";
+// }
+// else{
+//     document.body.style.backgroundColor="blue";
+// }
 
 
 
