@@ -58,27 +58,30 @@
 // else{
 //     document.body.style.backgroundColor="blue";
 // }
+
+
+
 //שאלה 9
-function printUserNumber(){
-    var myarray=[];
-    for(var i=0; i<5;i++){
-        var loto=prompt("inter number 0-56");
-        myarray.push(loto);
-    }  
-        document.getElementById("but").innerHTML =myarray;     
+// function printUserNumber(){
+//     var myarray=[];
+//     for(var i=0; i<5;i++){
+//         var loto=prompt("inter number 0-56");
+//         myarray.push(loto);
+//     }  
+//         document.getElementById("but").innerHTML+=myarray;     
     
 
-   var loto2= Math.floor(Math.random()*57);
-   document.body.innerHTML+=loto2;
-   for(var J=0;j<myarray.length;j++){
-   if(myarray[j]==loto2){
-       document.body.innerHTML="good work";
-   }
-   else{
-       document.body.innerHTML="bad work";
-   }
-   }
-}
-printUserNumber()
+//    var loto2= Math.floor(Math.random()*57);
+//    document.body.innerHTML+=loto2;
+//    for(var j=0;j<myarray.length;j++){
+//    if(myarray[j]==loto2){
+//        document.body.innerHTML+="good work";
+//    }
+//    else{
+//        document.body.innerHTML+="bad work";
+//    }
+//    }
+// }
+// printUserNumber()
 
 
