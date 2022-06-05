@@ -62,6 +62,7 @@
 
 
 //שאלה 9
+//להמשיך את השאלה
 // function printUserNumber(){
 //     var myarray=[];
 //     for(var i=0; i<5;i++){
@@ -83,5 +84,59 @@
 //    }
 // }
 // printUserNumber()
+
+//02.06.22
+// var userdate2=document.getElementById("userdate");
+// var username2 = document.getElementById("username");
+// var userunput =new Date();
+// function ifUserUp18Yo(){
+//     if(userunput.getFullYear()-getyears(userdate2.value)>18){
+//   msg_wel.innerHTML ="<h1 style= 'color:blue';>"+"welcome"+" "+ username2.value+"</h1>";
+    
+
+// }
+//     else{
+//     msg_wel.innerHTML="<h1 style='color:red';>"+"bye"+" "+username2.value+"</h1>";
+//     }
+// }
+
+// function getyears(str){
+//     var year="";
+//     for(var i=0;i<str.length;i++){
+//         year+=str[i]
+//         if (str[i]=="-"){
+//             return parseInt (year)
+//         }
+//     }
+// }
+
+// function changeColor(){
+//     msg_wel.innerHTML ="<h1 style= 'color:green';>"+"welcome"+" "+ username2.value+"</h1>";
+//     msg_wel.innerHTML="<h1 style='color:green';>"+"bye"+" "+username2.value+"</h1>";
+// }
+var firstNameArray=[];
+var userfirstname=document.getElementById("first name");
+var userfamilyname=document.getElementById("family");
+function pussFirstName(){
+    for(var i=0;i<5;i++){
+    firstNameArray.push(userfirstname.value);
+    console.log(firstNameArray[i]+" "+userfamilyname.value);
+}
+}
+// function printNameAndFamily(){
+// for(var j=0;j<firstNameArray.length;j++){
+// document.body.innerHTML="<h1>"+firstNameArray[0]+" "+userfamilyname.value+"</h1>";
+// }
+// }
+// printNameAndFamily(pussFirstName)
+
+
+
+
+
+
+
+
+
 
 
