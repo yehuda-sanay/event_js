@@ -114,21 +114,35 @@
 //     msg_wel.innerHTML ="<h1 style= 'color:green';>"+"welcome"+" "+ username2.value+"</h1>";
 //     msg_wel.innerHTML="<h1 style='color:green';>"+"bye"+" "+username2.value+"</h1>";
 // }
-var firstNameArray=[];
-var userfirstname=document.getElementById("first name");
-var userfamilyname=document.getElementById("family");
+// var inp=document.createElement("input");
+// inp.type="text";
+// inp.id="firstname";
+var myarray=[];
 function pussFirstName(){
-    for(var i=0;i<5;i++){
-    firstNameArray.push(userfirstname.value);
-    console.log(firstNameArray[i]+" "+userfamilyname.value);
+    var i=0;
+    while(i<4){
+var elem = document.createElement("input");
+elem.type = "text";
+elem.id = "firstname";
+document.body.appendChild(elem);
+elem.value = "This is some text";
+i++
+
 }
+myarray.push(firstname).value;
 }
+// function pussslastname(){
+//     var userfamilyname=document.getElementById("family");
+
+// }
 // function printNameAndFamily(){
 // for(var j=0;j<firstNameArray.length;j++){
 // document.body.innerHTML="<h1>"+firstNameArray[0]+" "+userfamilyname.value+"</h1>";
 // }
 // }
 // printNameAndFamily(pussFirstName)
+
+// firstname.addEventListener("click",userfirstname());
 
 
 
